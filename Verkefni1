@@ -1,0 +1,41 @@
+1.
+ Null er einstök týpa af data og það passar ekki í aðra hópa eins og Number, string eða boolean
+ Undefined er þegar takið er er ekki skráð sem neitt þegar t.d takið er tekið fram en ekki skilgreint þá er takið undefined 
+
+
+2.
+Use strict er notað til að láta gamlan kóða virka á nýrri útgáfur af ecmascript  
+
+3.
+You can declare variable to store data with let, var and const. Þú getur látið tök halda inni sér gögn.
+Let er nýlegri leið til að halda tök, var er eldri gerð og Const er eins og let nema óbreytanlegt tak
+
+4. 
+var x; 
+for (x = 9; x > 0; x--){
+			console.log("hello " + x)
+}
+
+5.
+1.
+var add = function(a, b) {
+  		return a + b;}
+2.
+	var x = add(1, 2);
+// x = 3
+
+function add(a, b) {
+return a + b;}
+3.
+function add(a, b) {
+return a + b;}
+
+Udacity er búið.
+
+10.
+function TheStack()
+{
+  TheStack();
+}
+
+TheStack();
