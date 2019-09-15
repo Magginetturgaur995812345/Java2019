@@ -1,0 +1,27 @@
+1.
+
+function geimflaug(name, speed, life) {
+  this.name = name;
+  this.speed = speed;
+  this.life = life;
+  this.fly = speed+15;
+}
+
+var F1 = new geimflaug("Spacedust", 100, 50);
+var F2 = new geimflaug("Phoenix", 110, 45);
+var F3 = new geimflaug("SS Catapult", 120, 40);
+
+2.
+
+class geimflaug {
+  constructor(name, speed, life) {
+  this.name = name;
+  this.speed = speed;
+  this.life = life;
+  this.fly = speed+15;
+	}
+}
+
+F1 = new geimflaug("Spacedust", 100, 50);
+F2 = new geimflaug("Phoenix", 110, 45);
+F3 = new geimflaug("SS Catapult", 120, 40);
